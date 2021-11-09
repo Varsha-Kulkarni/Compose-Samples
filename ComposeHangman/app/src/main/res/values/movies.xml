@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="movie_titles">
+        <item>THE TERMINATOR</item>
+        <item>FIGHT CLUB</item>
+        <item>SHAWSHANK REDEMPTION</item>
+        <item>IT\'S A WONDERFUL LIFE</item>
+        <item>WALL.E</item>
+        <item>THE GODFATHER</item>
+        <item>BLOOD DIAMOND</item>
+        <item>NOTTING HILL</item>
+        <item>PRETTY WOMAN</item>
+        <item>BLACK SWAN</item>
+        <item>YOU HAVE GOT MAIL</item>
+        <item>SLEEPLESS IN SEATTLE</item>
+        <item>INCEPTION</item>
+        <item>AVATAR</item>
+        <item>GLADIATOR</item>
+        <item>GOODFELLAS</item>
+        <item>MEMENTO</item>
+        <item>TITANIC</item>
+        <item>TROY</item>
+        <item>DOWNFALL</item>
+        <item>2001:A SPACE ODYSSEY</item>
+        <item>TRANSFORMERS</item>
+        <item>THE KING\'S SPEECH</item>
+        <item>ROCKY</item>
+        <item>MANHATTAN</item>
+        <item>THOR</item>
+        <item>LOCK,STOCK AND TWO SMOKING BARRELS</item>
+        <item>DRIVE</item>
+        <item>CONTAGION</item>
+        <item>LIMITLESS</item>
+        <item>UNKNOWN</item>
+        <item>SCREAM</item>
+        <item>SE7EN</item>
+        <item>SOURCE CODE</item>
+        <item>12 ANGRY MEN</item>
+        <item>THE DARK KNIGHT</item>
+        <item>THE MATRIX</item>
+        <item>FORREST GUMP</item>
+        <item>TOY STORY 3</item>
+        <item>TAXI DRIVER</item>
+        <item>THE DEPARTED</item>
+        <item>ETERNAL SUNSHINE OF THE SPOTLESS MIND</item>
+        <item>THE PRESTIGE</item>
+        <item>JAWS</item>
+        <item>TENET</item>
+        <item>clockwork orange</item>
+        <item>no country for old men</item>
+        <item>schindler\'s list</item>
+        <item>matrix reloaded</item>
+    </string-array>
+</resources>

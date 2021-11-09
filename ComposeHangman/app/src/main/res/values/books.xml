@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="books">
+<item>A STORM OF SWORDS</item>
+<item>A CLASH OF KINGS</item>
+<item>A GAME OF THRONES</item>
+<item>NINETEEN EIGHTY-FOUR</item>
+<item>THE FELLOWSHIP OF THE RING</item>
+<item>HOUSE OF CHAINS</item>
+<item>THE HITCHHIKER\'S GUIDE TO THE GALAXY</item>
+<item>MEMORIES OF ICE</item>
+<item>PRIDE AND PREJUDICE</item>
+<item>DEADHOUSE GATES</item>
+<item>FOUNDATION</item> 
+<item>THE HOBBIT</item>
+<item>SECOND FOUNDATION</item>
+<item>FOUNDATION AND EMPIRE</item>
+<item> NORWEGIAN WOOD</item> 
+<item>STARTIDE RISING</item>
+<item>GARDENS OF THE MOON</item>
+<item>BRAVE NEW WORLD</item>
+<item>THE EYE OF THE WORLD</item>
+<item>THE CATCHER IN THE RYE</item>
+<item>THE SILMARILLION</item>
+<item>FORWARD THE FOUNDATION</item>
+<item>INTERVIEW WITH THE VAMPIRE</item>
+<item>MAGICIAN\'S GAMBIT</item>
+<item>ENCHANTERS\' END GAME</item>
+<item>QUEEN OF SORCERY</item>
+<item>THE VAMPIRE LESTAT</item>
+<item>PAWN OF PROPHECY</item>
+<item>THE QUEEN OF THE DAMNED</item>
+<item>PRELUDE TO FOUNDATION</item>
+
+</string-array>
+</resources>
