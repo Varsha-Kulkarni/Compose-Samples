@@ -26,6 +26,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.varshakulkarni.composehangman.R
 import com.varshakulkarni.composehangman.ui.DrawHangman
+import com.varshakulkarni.composehangman.ui.Route
 
 enum class GameState {
     GameInit,
@@ -151,6 +152,8 @@ fun HangmanGame(
                     if (!hiddenWord.contains('-')) {
                         gameState = GameState.GameOver
                         visibleState.value = true
+                        navController.navigate(Route.Score.route(gameScore))
+
                     }
                     gameState = GameState.Pause
                 } else {
@@ -164,24 +167,25 @@ fun HangmanGame(
                 if (lives == 0) {
                     gameState = GameState.GameOver
                     visibleState.value = true
+                    navController.navigate(Route.Score.route(gameScore))
                 }
                 DrawHangman(lives)
             }
-        }, snackbarHost = {
-            if (visibleState.value) {
-                hiddenWord = gameString
-                Snackbar(
-                    action = {
-                        Button(onClick = {
-                            navController.navigateUp()
-                        }) {
-                            Text(text = "OK")
-                        }
-                    }
-                ) {
-                    Text(text = "Game Over, score is $gameScore")
-                }
-            }
+//        }, snackbarHost = {
+//            if (visibleState.value) {
+//                hiddenWord = gameString
+//                Snackbar(
+//                    action = {
+//                        Button(onClick = {
+//                            navController.navigateUp()
+//                        }) {
+//                            Text(text = "OK")
+//                        }
+//                    }
+//                ) {
+//                    Text(text = "Game Over, score is $gameScore")
+//                }
+
         }
     )
 }
