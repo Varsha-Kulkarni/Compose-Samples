@@ -2,7 +2,7 @@ Hangman was the first ever app I coded on Android ~10 years ago. Tried to create
 
 # Demo
 
-<img src="/hangman.gif" width="260">
+<img src="hangman.gif" width="260">
 
 ## TODO
 
